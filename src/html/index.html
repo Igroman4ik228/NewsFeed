@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Defines the character encoding in UTF-8 -->
+	<meta charset="UTF-8">
+
+	<!-- Compatible with IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Responsive Web Design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- The title of the document on the browser tab -->
+	<title>Template</title>
+
+	<!-- Favicon https://realfavicongenerator.net/ -->
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="./img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- SEO -->
+	<!-- Page Description -->
+	<meta name="description" content="Template web page">
+	<!-- Keywords for promotion -->
+	<meta name="keywords" content="html, css, sass, scss, webdev">
+	<!-- Author's name -->
+	<meta name="author" content="igroman4ik">
+
+	<meta name="apple-mobile-web-app-title" content="Template">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<meta property="og:site_name" content="Template">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Template web page">
+	<meta property="og:description" content="Описание">
+	<meta property="og:image" content="./img/favicons/android-chrome-512x512.png">
+	<meta property="og:url" content="https://example.com">
+	<!-- <link rel="canonical" href="https://example.com"> -->
+
+	<!-- Disable formatting of phone numbers and address -->
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+
+
+	<!-- Local fonts -->
+	<link rel="preload" href="./fonts/subset-Rubik-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="./fonts/fonts.css" media="print" onload="this.media='all'" />
+
+	<!-- Inline fonts in base64 -->
+	<style></style>
+
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+
+	@@include('blocks/header.html')
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<!-- News -->
+				<section class="main-news">
+					<article class="news">
+						<div class="img">
+							<img src="./img/main-news/img1.jpg" alt="">
+						</div>
+						<div class="content">
+							<h3 class="subtitle">Технологии</h3>
+							<h2 class="title">Отец жанра. Как уже забытый трип-хоп определяет самую популяр…</h2>
+							<p class="text">Новая мода на топовые наряды необычных цветов. В сезоне – топики, шорты-боксеры, сланцы и
+								сандалии. А также большие солнечные очки и яркая шляпка.</p>
+							<a class="source-link" href="#">Источник</a>
+						</div>
+					</article>
+					<article class="news">
+						<div class="img">
+							<img src="./img/main-news/img2.jpg" alt="">
+						</div>
+						<div class="content">
+							<h3 class="subtitle">Технологии</h3>
+							<h2 class="title">Как DJ Shadow попал в книгу рекордов Гиннеса из-за альбома</h2>
+							<p class="text">Технологические тренды меняют наш привычный мир. Глобальные корпорации задают новые тренды
+								айтишникам на разработку, а дизайнеров заставляю…</p>
+							<a class="source-link" href="#">Источник</a>
+						</div>
+					</article>
+					<article class="news">
+						<div class="img">
+							<img src="./img/main-news/img3.jpg" alt="">
+						</div>
+						<div class="content">
+							<h3 class="subtitle">Технологии</h3>
+							<h2 class="title">Вещи, которые нужно знать перед стажировкой в IT сфере</h2>
+							<p class="text">Уличные музыканты продолжают радовать фанатов стрит арта. Для этого они исполняют
+								привычные мелодии в новом формате!</p>
+							<a class="source-link" href="#">Источник</a>
+						</div>
+					</article>
+				</section>
+
+				<aside class="aside-news">
+					<article class="news">
+						<h4 class="title">В американском зоопарке празднуют рождение гориллы: видео</h4>
+						<div class="down">
+							<time class="date" datetime="07-12">12 июля</time>
+							<a class="source-link" href="">Источник</a>
+						</div>
+					</article>
+				</aside>
+			</div>
+		</div>
+	</main>
+	@@include('blocks/footer.html')
+
+</body>
+
+</html>
