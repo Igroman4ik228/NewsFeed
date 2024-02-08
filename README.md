@@ -8,7 +8,7 @@
 ## :zap: Начало работы
 Перед началом *обязательно* установите [NodeJS](https://nodejs.org/en/) **LTS***
 Для работы с данной сборкой в новом проекте, склонируйте все содержимое репозитория <br>
-`git clone https://github.com/Igroman4ik228/Gulp_build.git`
+`git clone [https://github.com/Igroman4ik228/Gulp_build.git](https://github.com/Igroman4ik228/NewsFeed.git)`
 Затем, находясь в корне проекта, запустите команду `npm i`, которая установит все находящиеся в package.json зависимости.
 После этого вы можете использовать любую из трёх предложенных команд сборки: <br>
 
