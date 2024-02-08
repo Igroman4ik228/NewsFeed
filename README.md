@@ -19,27 +19,3 @@
 `gulp zipdocs` - команда для быстрой и автоматической упаковки всех файлов из папки __docs__ в архив docs.zip
 
 `gulp zip` - команда для быстрой и автоматической упаковки всех нужных файлов для передачи другому разработчику в архив archive.zip
-
-## :open_file_folder: Файловая структура
-```
-gulp-html-starter
-├── build
-├── docs
-├── src
-│   ├── html
-│   │   └── blocks
-│   ├── files
-│   ├── fonts
-│   ├── img
-│   │   └── favicons
-│   ├── js
-│   │   └── modules
-│   ├── scss
-│   │   ├── base
-│   │   └── blocks
-├── .gitignore
-├── gulpfile.js
-├── LICENSE
-├── package.json
-└── webpack.config.js
-```
