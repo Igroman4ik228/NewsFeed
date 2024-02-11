@@ -1,7 +1,7 @@
 {
-	"name": "gulp-build",
+	"name": "news-feed",
 	"version": "1.0.0",
-	"description": "gulp-builder for website development",
+	"description": "PetProject",
 	"main": "gulpfile.js",
 	"scripts": {
 		"dev": "gulp",
@@ -11,10 +11,10 @@
 	"author": "igroman4ik",
 	"license": "MIT",
 	"devDependencies": {
-		"@babel/core": "^7.22.5",
-		"@babel/preset-env": "^7.22.5",
+		"@babel/core": "^7.23.9",
+		"@babel/preset-env": "^7.23.9",
 		"browser-sync": "^2.29.3",
-		"css-loader": "^6.8.1",
+		"css-loader": "^6.10.0",
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^8.0.0",
 		"gulp-babel": "^8.0.0",
@@ -36,9 +36,9 @@
 		"gulp-webp-html-nosvg": "^1.1.1",
 		"gulp-zip": "^5.1.0",
 		"i": "^0.3.7",
-		"npm": "^9.7.2",
-		"sass": "^1.63.4",
-		"style-loader": "^3.3.3",
+		"npm": "^9.9.2",
+		"sass": "^1.70.0",
+		"style-loader": "^3.3.4",
 		"webpack-stream": "^7.0.0"
 	},
 	"babel": {

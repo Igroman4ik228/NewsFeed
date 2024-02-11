@@ -69,6 +69,10 @@
 			max-width: 322px;
 			position: relative;
 
+			&:not(:first-child) {
+				margin-top: 35px;
+			}
+
 			&::after {
 				content: "";
 				position: absolute;
