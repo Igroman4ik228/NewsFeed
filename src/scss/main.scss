@@ -123,3 +123,13 @@
 		}
 	}
 }
+
+@media (max-width: 1380px) {
+	.main {
+		margin-top: 40px;
+	}
+
+	.aside-news {
+		display: none;
+	}
+}
